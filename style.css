@@ -1,8 +1,61 @@
 @media(max-width:1920px){
-header{height: 80px;background-color: #161414;max-width: 1920px;margin: -8px;text-align: center;margin-top: -21px;}
-.nav1{color: #fff;font-size: 25px;text-decoration: underline #161414;}
-.h1header{color: #fff; font-size: 25px;padding-top: 25px;margin-left: -900px;}
-.nav2{margin-top: -50px;}
-a{padding: 15px;}
-header img.pizzaimgh{}
+header{
+    height: 80px;
+    background-color: #161414;
+    max-width: 1920px;
+    margin: -8px;
+    text-align: center;
+    margin-top: -21px;
+}
+
+.nav1{color: #fff;
+    font-size: 25px;
+    text-decoration: underline #161414;
+}
+
+.h1header{color: #fff;
+    font-size: 25px;
+    margin-left: -903px;
+    margin-top: -33px;
+}
+
+.nav2{
+    margin-top: -50px;
+    margin-left: 84px;
+}
+
+a{
+    padding: 15px;
+}
+
+header img.pizzaimgh{
+    margin-top: 29px;
+    margin-left: -1050px;
+}
+
+.bi-door-open{
+    color: #e6dfdf;
+    
+}
+
+.bi-github{
+    color: rgba(144, 235, 235, 0.801);
+   
+}
+
+.bi-linkedin{
+    color: rgb(0, 74, 139);
+    
+}
+
+}
+
+@media(max-width:1367px){
+    .h1header{
+        margin-left: -1170px;
+    }
+
+    header img.pizzaimgh{
+        margin-left: -1300px;
+    }
 }
