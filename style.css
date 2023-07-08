@@ -24,6 +24,16 @@
     padding-left: 30rem;
 }
 
+.content > nav .icon{
+    font-size: 25px;
+}
+
+.content .logo{
+    text-align: center;
+    margin-left: 10px;
+    display: fixed;
+}
+
 .nav1{color: #fff;
     font-size: 25px;
     text-decoration: underline #161414;
@@ -31,27 +41,40 @@
 
 .h1header{color: #fff;
     font-size: 25px;
-    margin-left: -903px;
+    margin-left: -1739px;
     margin-top: -33px;
 }
 
-.nav2{
-    margin-top: -50px;
-    margin-left: 84px;
+.icon{
     display: flex;
+    margin-top: 16px;
+    margin-left: 50px;
+}
+
+.nav2{
+    margin-top: -44px;
+    margin-left: 250px;
+    display: flex;
+}
+
+header  a{
+    font-weight: bold;
+
 }
 
 a{
     padding: 15px;
+   
 }
 
 header img.pizzaimgh{
-    margin-top: 29px;
-    margin-left: -1050px;
-}
+    margin-top: 34px;
+    margin-left: -1873px;
+    
+}    
 
 .bi-door-open{
-    color: #e9ae0d;
+    color: #e7d808;
     
 }
 
@@ -65,8 +88,31 @@ header img.pizzaimgh{
     
 }
 .bi-cart4{
-    color: #e9ae0d;
+    color: #aa7d03;
 }
+
+.first-section{
+    /* OCUPAR TODA ALTURA DA TELA */
+    height: 100vh;
+    /* OCUPAR TODA LARGURA DA TELA */
+    width: 100vw;
+    /* FICAR UM DO LADO DO OUTRO */
+    display: flex;
+    /* ITEMS FICARA EM FORMA DE COLUNA um do lado outro e depois embaixo do otro*/
+    flex-direction: column;
+    /* como colocamos flex directo vamos alinha da horizontal*/ 
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+}
+
+@media(max-width:1367px){
+
 
 }
 
