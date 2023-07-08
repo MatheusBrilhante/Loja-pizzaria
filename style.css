@@ -15,7 +15,7 @@
 
 @media(max-width:1920px){
 .content{
-    height: 80px;
+    height: 90px;
     background-color: #161414;
     width: 100vw;
     text-align: center;
@@ -26,6 +26,17 @@
 
 .content > nav .icon{
     font-size: 25px;
+}
+
+.content nav a{
+    transition: all 200ms ease-in;
+}
+
+.content nav a:hover {
+    background-color: #161414;
+    border-bottom:  4px solid #ffc506;
+    color: #ffc506;
+
 }
 
 .content .logo{
@@ -92,6 +103,10 @@ header img.pizzaimgh{
 }
 
 .first-section{
+    /*ADICIONANDO IMAGEM E CONFIGURANDO E CENTRALIZANDO NO MEIO DO SITE */
+    background-image: url(javascript\Loja-pizzaria\img/fundopizza.jpg);
+    background-position: center center;
+
     /* OCUPAR TODA ALTURA DA TELA */
     height: 100vh;
     /* OCUPAR TODA LARGURA DA TELA */
@@ -103,15 +118,6 @@ header img.pizzaimgh{
     /* como colocamos flex directo vamos alinha da horizontal*/ 
     justify-content: center;
     align-items: center;
-
-}
-
-
-
-
-}
-
-@media(max-width:1367px){
 
 
 }
@@ -129,6 +135,11 @@ header img.pizzaimgh{
 
     .nav2{
         margin-top: -42px;
+        margin-left: 101px;
+    }
+
+    .icon{
+        margin-top: -7px;
     }
 
     li{
@@ -142,4 +153,6 @@ html{
     font-size: 62.5%;
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
+}
+
 }
