@@ -24,6 +24,63 @@
     padding-left: 30rem;
 }
 
+.first-section .container-head{
+    /* FICAR UM DO LADO DO OUTRO*/
+    display: flex;
+    /* ESPECIFICANDO PARA FICA FLEX MAIS FICAR EM COLUNA*/
+    flex-direction: column;
+    /* ALINHAR AO CENTRO HORIZONTAL*/
+    align-items: center;
+    /* ALINHAR CENTRO VERTICAL*/
+    justify-content: center;
+
+}
+
+.first-section h1{
+    color: #ffc506;
+    font-size: 6rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-weight: bold;
+
+}
+
+.first-section h2{
+    font-size: 3rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+
+}
+.caix-but button{
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #ffc506;
+    color: black;
+    font-weight: bold;
+    margin-top: 5rem;
+    text-decoration: underline black;
+    border-radius: 10px;
+    transition: all 400ms ease-in;
+
+}
+
+.caix-but button:hover{
+    border: 1px solid #ffc506;
+    background-color: transparent;
+    color: #ffc506;
+
+}
+
+.caix-but{
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
 .content > nav .icon{
     font-size: 25px;
 }
@@ -104,9 +161,7 @@ header img.pizzaimgh{
 
 .first-section{
     /*ADICIONANDO IMAGEM E CONFIGURANDO E CENTRALIZANDO NO MEIO DO SITE */
-    background-image: url(javascript\Loja-pizzaria\img/fundopizza.jpg);
-    background-position: center center;
-
+    
     /* OCUPAR TODA ALTURA DA TELA */
     height: 100vh;
     /* OCUPAR TODA LARGURA DA TELA */
@@ -126,6 +181,9 @@ header img.pizzaimgh{
     .h1header{
         margin-left: -1445px;
         text-decoration: underline rgb(236, 168, 20);
+    }
+    
+    
     }
 
     header img.pizzaimgh{
@@ -155,4 +213,15 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
+.first-section{
+    /* ADICIONANDO IMAGEM ( linear gradiente para deixa fundo meio escuro ou qualquer outra cor*/ 
+    background-image: linear-gradient(rgba(29,29,29 ,0.8),rgba(29,29,29,0.8)),url(./img/fundopizza.jpg);
+    /* COMECAR CENTRALIZAR A IMAGEM */
+    background-position: center center;
+    /* COBRIR TODA TELA*/
+    background-size: cover;
+    /* PARA NAO REPETIR A IMAGEM NO SITE */
+    background-repeat: no-repeat;
+    /*ABAIXAR POUCO A IMAGEM */
+    background-position-y: 50px;
 }
