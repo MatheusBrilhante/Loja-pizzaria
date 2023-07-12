@@ -3,6 +3,8 @@
 
 /*font-family: 'Roboto', sans-serif; */
 
+/*TIRAR TODOS MARGIN PADDIN ETC QUE O SITE CRIA AUTOMATICO */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -14,7 +16,10 @@
 
 
 @media(max-width:1920px){
-.content{
+
+    /*FIRST SECTION */
+
+    .content{
     height: 90px;
     background-color: #161414;
     width: 100vw;
@@ -81,8 +86,14 @@
 
 }
 
+
+  /* MENU */
+
 .content > nav .icon{
     font-size: 25px;
+    margin: auto;
+    margin-top: -8px;
+    margin-left: 50px;
 }
 
 .content nav a{
@@ -111,17 +122,19 @@
     font-size: 25px;
     margin-left: -1739px;
     margin-top: -33px;
+    text-decoration: underline #ffc506;
 }
 
 .icon{
     display: flex;
     margin-top: 16px;
-    margin-left: 50px;
+    margin-left: 360px;
 }
 
 .nav2{
-    margin-top: -44px;
-    margin-left: 250px;
+    margin: auto;
+    margin-top: -42px;
+    margin-left: 360px;
     display: flex;
 }
 
@@ -174,6 +187,59 @@ header img.pizzaimgh{
     justify-content: center;
     align-items: center;
 
+   
+
+}
+
+      /* SOBRE NOS */
+
+.sobre-nos{
+    background-color: #161414;
+    width: 100%;
+    padding-bottom: 5rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+.sobre-nos img{
+    width: 400px;
+    height: 400px;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    border: 2px solid rgb(155,155 ,155);
+
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentsobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentsobre h2{
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    text-decoration: underline #ffc506;
+}
+
+.contentsobre p{
+    text-align: center;
+    font-size: 1.8rem;
+    width: 600px;
+
+}
+
+/*Cardapio */
+
 
 }
 
@@ -182,7 +248,6 @@ header img.pizzaimgh{
         margin-left: -1445px;
         text-decoration: underline rgb(236, 168, 20);
     }
-    
     
     }
 
@@ -193,7 +258,6 @@ header img.pizzaimgh{
 
     .nav2{
         margin-top: -42px;
-        margin-left: 101px;
     }
 
     .icon{
@@ -203,7 +267,7 @@ header img.pizzaimgh{
     li{
         padding-top: 24px;
     }
-}
+
 
 html{
     width: 100vw;
