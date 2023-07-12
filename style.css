@@ -240,6 +240,47 @@ header img.pizzaimgh{
 
 /*Cardapio */
 
+.cardapio{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f1e1e;
+
+}
+
+.cardapio h2{
+    font-size: 5rem;
+    color: #fff;
+    text-decoration: underline #ffc506;
+    text-transform: uppercase;
+}
+
+ section.itens-cardapio{
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax( 250px, 550px));
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.itens-cardapio .info{
+    background-color: #ffffffc9;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+
+
+}
+
 
 }
 
@@ -258,6 +299,7 @@ header img.pizzaimgh{
 
     .nav2{
         margin-top: -42px;
+        margin-left: 50px;
     }
 
     .icon{
