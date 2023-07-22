@@ -256,13 +256,13 @@ header img.pizzaimgh{
 
 .itens-cardapio{
     /* IRA SUAR 80% DE 100* DA DIV OU SECTION */
-    width: 80%;
+    width: 90%;
     margin-top: 2rem;
     margin-bottom: 2rem;
     /* MOVER UM DO LADO OUTRO */
     display: grid;
     /* AJUDAR NA RESPONISIVIDADE ,VAI DIMINUIR ATE 250 E AUMENTAR ATE 550 COLOCANDO EM COLUNA */
-    grid-template-columns: repeat(auto-fit, minmax(250px , 550px));
+    grid-template-columns: repeat(auto-fit, minmax(150px , 350px));
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -416,6 +416,20 @@ footer .desen{
     font-weight: bold;
 }
 
+}
+
+@media(max-width:1530px){
+    .nav2{
+        margin-left: 209px;}
+    .content .logo{
+        margin-left: 192px;
+    }
+}
+
+@media(max-width:1415px){
+    .contet .logo{
+        margin-left: 274px;
+    }
 }
 
 @media(max-width:1366px){
