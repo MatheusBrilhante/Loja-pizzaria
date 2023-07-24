@@ -18,6 +18,7 @@
 
     /*FIRST SECTION */
 
+    
     .content{
     height: 90px;
     background-color: #161414;
@@ -106,9 +107,7 @@
 }
 
 .content .logo{
-    text-align: center;
     margin-left: 10px;
-    display: fixed;
 }
 
 .nav1{color: #fff;
@@ -431,6 +430,14 @@ footer .desen{
         margin-left: 274px;
     }
 }
+@media(max-width:1390px){
+    .nav2{
+        margin-left: 87px;
+    }
+
+    
+
+}
 
 @media(max-width:1366px){
     .nav2{
@@ -476,6 +483,60 @@ html{
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
 }
+
+@media(max-width:1251px){
+    .contato .pag img{
+        margin-left: -118px;
+    }
+
+}
+
+@media(max-width:1200px){
+    .main{
+        display: block;
+    }
+    .nav2{margin-left: -58px;}
+
+     .content .logo{
+        margin-left: 238px;
+    }
+
+}
+@media(max-width:1111px){
+    .content .logo{
+    margin-left: 333px;
+    }
+
+}
+
+@media(max-width:1090px){
+    .nav2{
+        margin-left: -107px;
+    }
+}
+
+@media(max-width:1035px){
+    .nav2{
+    margin-left: -133px;
+    }
+}
+
+@media(max-width:1018px){
+    .nav2{
+        margin-left: -109px;
+    }
+    .content > nav .icon{
+        margin-left: -4px;
+        margin-top: -9px;
+    }
+    .content .nav2 > a{
+        padding: 10px;
+        margin-top: 4px;
+    }
+
+}
+
+
 
 .first-section{
     /* ADICIONANDO IMAGEM ( linear gradiente para deixa fundo meio escuro ou qualquer outra cor*/ 
