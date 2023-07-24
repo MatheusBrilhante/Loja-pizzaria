@@ -502,6 +502,12 @@ html{
     }
 
 }
+@media(max-width:1115px){
+    .contato .pag img{
+        margin-left: -255px;
+    }
+}
+
 @media(max-width:1111px){
     .content .logo{
     margin-left: 333px;
@@ -520,6 +526,12 @@ html{
     margin-left: -133px;
     }
 }
+@media(max-width:1033px){
+    .itens-cardapio{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px,400px))
+}
+}
 
 @media(max-width:1018px){
     .nav2{
@@ -532,6 +544,23 @@ html{
     .content .nav2 > a{
         padding: 10px;
         margin-top: 4px;
+    }
+
+}
+
+@media(max-width:1007px){
+    .content .logo{
+        margin-left: 415px;
+    }
+}
+
+@media(max-width:961px){
+    
+}
+
+@media(max-width:945px){
+    .nav2{
+        margin-left: -140px;
     }
 
 }
