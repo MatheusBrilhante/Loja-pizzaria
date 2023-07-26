@@ -555,17 +555,45 @@ html{
 }
 
 @media(max-width:961px){
+    html{
+        font-size: 50%;
+    }
     
-}
-
-@media(max-width:945px){
+    .content .logo{
+        margin-left: 459px;
+    }
     .nav2{
-        margin-left: -140px;
+        margin-left: -49px;
+        margin-top: -43px;
+    }
+    
+    .contato{
+        padding-left: 126px;
+        align-items: flex-start;
+    }
+    .contato h1{
+        margin-left: 141px;
+    }
+    .contato .pag img{
+        margin-left: -18px;
     }
 
 }
 
+@media(max-width:945px){
+    .nav2{
+        margin-left: -68px;
+    }
 
+    .content .logo{
+        margin-left: 516px;
+    }
+
+}
+
+@media(max-width:925px){
+    margin-left: -82px;
+}
 
 .first-section{
     /* ADICIONANDO IMAGEM ( linear gradiente para deixa fundo meio escuro ou qualquer outra cor*/ 
