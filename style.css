@@ -502,6 +502,13 @@ html{
     }
 
 }
+@media(max-width:1199px){
+    .sobre-nos .main .img-cozinha img{
+        width: 700px;
+        margin-left: -10px;
+    }
+}
+
 @media(max-width:1115px){
     .contato .pag img{
         margin-left: -255px;
@@ -592,9 +599,22 @@ html{
 }
 
 @media(max-width:925px){
-    margin-left: -82px;
+    
 }
 
+@media(max-width:922px){
+    .itens-cardapio{
+        grid-template-columns: repeat(auto-fit, minmax(100px,300px));
+    }
+    
+@media(max-width:699px){
+    .itens-cardapio{
+        grid-template-columns: repeat(auto-fit, minmax(400px,300px));
+    }
+
+    }
+
+}
 .first-section{
     /* ADICIONANDO IMAGEM ( linear gradiente para deixa fundo meio escuro ou qualquer outra cor*/ 
     background-image: linear-gradient(rgba(29,29,29 ,0.8),rgba(29,29,29,0.8)),url(./img/fundopizza.jpg);
