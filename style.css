@@ -101,7 +101,7 @@
 
 .content nav a:hover {
     background-color: #161414;
-    border-bottom:  4px solid #ffc506;
+    border-bottom:  3px solid #ffc506;
     color: #ffc506;
 
 }
@@ -586,6 +586,11 @@ html{
     }
 
 }
+@media(max-width:960px){
+    .contentsobre p{
+        font-size: 2.2rem;
+    }
+}
 
 @media(max-width:945px){
     .nav2{
@@ -606,6 +611,33 @@ html{
     .itens-cardapio{
         grid-template-columns: repeat(auto-fit, minmax(100px,300px));
     }
+
+@media(max-width:919px){
+    .content{
+        height: 80px;
+    }
+    
+    .h1header{
+        font-size: 20px;
+        margin-top: -31px;
+        margin-left: -1472px;
+    }
+    .nav1{
+        font-size: 20px;
+    }
+    .nav2{
+        margin-top: -36px;
+    }
+    .content > nav .icon{
+        font-size: 20px;
+    }
+
+    .content nav a:hover{
+        padding-bottom: 5px;
+    }
+    
+
+}
     
 @media(max-width:699px){
     .itens-cardapio{
