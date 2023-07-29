@@ -454,7 +454,7 @@ footer .desen{
     /* CARDAPIO*/
     .itens-cardapio{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px,450px));
+        grid-template-columns: repeat(auto-fit, minmax(100px,350px));
     }
 
     }
@@ -602,11 +602,6 @@ html{
     }
 
 }
-
-@media(max-width:925px){
-    
-}
-
 @media(max-width:922px){
     .itens-cardapio{
         grid-template-columns: repeat(auto-fit, minmax(100px,300px));
@@ -614,7 +609,7 @@ html{
 
 @media(max-width:919px){
     .content{
-        height: 80px;
+        height: 74px;
     }
     
     .h1header{
@@ -635,10 +630,57 @@ html{
     .content nav a:hover{
         padding-bottom: 5px;
     }
-    
+}
+
+
+@media(max-width:885px){
+    .content .logo{
+        margin-left: 585px;
+    }
 
 }
-    
+
+@media(max-width:885px){
+    .contato{
+        padding-left: 67px;
+    }
+}
+
+@media(max-width:815px){
+    .content{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .content .list-menu{
+        display: none;
+    }
+
+    .one,
+    .two,
+    .three{
+        width: 80%;
+        height: 2px;
+        background-color: white;
+        margin: 6px auto;
+        transition-duration: 0.5s;
+    }
+    .menu-toggle{
+        width: 30px;
+        height: 30px;
+        margin-top: 35px;
+        margin-left: -85px;
+    }
+}
+
+@media(max-width:750px){
+    .sobre-nos .main .img-cozinha img{
+        width: 600px;
+
+    }
+}
+
 @media(max-width:699px){
     .itens-cardapio{
         grid-template-columns: repeat(auto-fit, minmax(400px,300px));
