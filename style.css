@@ -18,6 +18,10 @@
 
     /*FIRST SECTION */
 
+    .menu-toggle{
+        display: none;
+    }
+
     
     .content{
     height: 90px;
@@ -606,6 +610,7 @@ html{
     .itens-cardapio{
         grid-template-columns: repeat(auto-fit, minmax(100px,300px));
     }
+}
 
 @media(max-width:919px){
     .content{
@@ -627,10 +632,12 @@ html{
         font-size: 20px;
     }
 
+
+}
+
     .content nav a:hover{
         padding-bottom: 5px;
     }
-}
 
 
 @media(max-width:885px){
@@ -653,9 +660,17 @@ html{
         
     }
 
+    .content .menu-toggle{
+        display: block;
+        text-align: center;
+        margin-left: -126px;
+
+    }
+
     .content .list-menu{
         display: none;
     }
+}
 
     .one,
     .two,
@@ -672,6 +687,26 @@ html{
         margin-top: 35px;
         margin-left: -85px;
     }
+
+@media(max-width:790px){
+    .contato{
+        padding-left: 21px;
+    }
+
+}
+
+@media(max-width:770px){
+    .container-head h1{
+        font-size: 40px;
+
+    }
+}
+
+
+@media(max-width:755px){
+    .content .menu-toggle{
+        margin-left: -200px;
+    }
 }
 
 @media(max-width:750px){
@@ -681,14 +716,98 @@ html{
     }
 }
 
+@media(max-width:790px){
+    .contato .pag img{
+        margin-left: -18px;
+        width: 209px;
+        height: 89px;
+    }
+
+}
+
+@media(max-width:700px){
+    .contato{
+        height: 250px;
+    }
+    .contato h1{
+        margin-left: 266px;
+    }
+    
+    .contentsobre p{
+        width: 550px;
+    }
+
+    .contato .pag img{
+        margin-top: 87px;
+        margin-left: -360px;
+        width: 229px;
+    }
+    
+    .contato div{
+        margin-left: 94px;
+    
+    }
+
+}
+
 @media(max-width:699px){
     .itens-cardapio{
         grid-template-columns: repeat(auto-fit, minmax(400px,300px));
     }
+}
 
+@media(max-width:680px){
+    .content .menu-toggle{
+        margin-left: -250px;
+    }
+}
+
+@media(max-width:625px){
+    .content .menu-toggle{
+        margin-left: -300px;
+    }
+ }
+
+@media(max-width:580px){
+    .content .menu-toggle{
+        margin-left: -350px;
+
+    }
+}
+
+@media(max-width:580px){
+    .content .menu-toggle{
+        margin-left: -350px;
+    }
+}
+
+@media(max-width:530px){
+    .content .menu-toggle{
+        margin-left: -400px;
     }
 
 }
+
+@media(max-width:480px){
+    .content .menu-toggle{
+        margin-left: -450px;
+    }
+}
+
+@media(max-width:430px){
+    .content .menu-toggle{
+        margin-left: -500px;
+    }
+
+}
+
+@media(max-width:376px){
+    .content .menu-toggle{
+        margin-left: -530px;
+
+    }
+}
+
 .first-section{
     /* ADICIONANDO IMAGEM ( linear gradiente para deixa fundo meio escuro ou qualquer outra cor*/ 
     background-image: linear-gradient(rgba(29,29,29 ,0.8),rgba(29,29,29,0.8)),url(./img/fundopizza.jpg);
