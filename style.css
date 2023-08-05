@@ -486,6 +486,7 @@ html{
     font-size: 62.5%;
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
+    background-color: #1f1e1f;
 }
 
 @media(max-width:1251px){
@@ -688,6 +689,39 @@ html{
         margin-left: -85px;
     }
 
+    .content.on{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        width: 100vw;
+        height: 105vh;
+        background-color: #11111179;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content.on .logo{
+        display: none;
+    }
+
+    .content.on .menu-toggle{
+        position: absolute;
+        right: 40px;
+        top: 20px;
+    }
+
+    .content.on .list-menu{
+        display: block;
+    }
+
+    .content.on .list-menu .li{
+        
+    }
+
+
 @media(max-width:790px){
     .contato{
         padding-left: 21px;
@@ -760,6 +794,17 @@ html{
     .content .menu-toggle{
         margin-left: -250px;
     }
+}
+
+@media(max-width:660px){
+    .sobre-nos .main .img-cozinha img{
+        width: 500px;
+        margin-left: 20px;
+    }
+}
+
+@media(max-width:660px){
+
 }
 
 @media(max-width:625px){
