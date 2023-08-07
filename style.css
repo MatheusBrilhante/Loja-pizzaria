@@ -22,6 +22,11 @@
         display: none;
     }
 
+
+    .list-menu{
+        display: flex;
+        margin-top: -10px;
+    }
     
     .content{
     height: 90px;
@@ -95,7 +100,7 @@
 .content > nav .icon{
     font-size: 25px;
     margin: auto;
-    margin-top: -8px;
+    margin-top: 2px;
     margin-left: 50px;
 }
 
@@ -112,6 +117,7 @@
 
 .content .logo{
     margin-left: 10px;
+    margin-top: 6px;
 }
 
 .nav1{color: #fff;
@@ -454,6 +460,10 @@ footer .desen{
         margin-left: -1445px;
         text-decoration: underline rgb(236, 168, 20);
     }
+
+    .content .logo{
+        margin-top: 11px;
+    }
     
     /* CARDAPIO*/
     .itens-cardapio{
@@ -462,6 +472,8 @@ footer .desen{
     }
 
     }
+
+
 
     header img.pizzaimgh{
         margin-top: 36px;
@@ -551,7 +563,7 @@ html{
     }
     .content > nav .icon{
         margin-left: -4px;
-        margin-top: -9px;
+        margin-top: 1px;
     }
     .content .nav2 > a{
         padding: 10px;
@@ -566,6 +578,14 @@ html{
     }
 }
 
+
+@media(max-width:977px){
+    .nav2{
+        margin-left: -135px;
+    }
+
+}
+
 @media(max-width:961px){
     html{
         font-size: 50%;
@@ -575,7 +595,7 @@ html{
         margin-left: 459px;
     }
     .nav2{
-        margin-left: -49px;
+        margin-left: -92px;
         margin-top: -43px;
     }
     
@@ -606,6 +626,10 @@ html{
         margin-left: 516px;
     }
 
+    .content .nav2 a{
+        padding: 10px;
+    }
+
 }
 @media(max-width:922px){
     .itens-cardapio{
@@ -616,6 +640,14 @@ html{
 @media(max-width:919px){
     .content{
         height: 74px;
+    }
+
+    .content .logo{
+        margin-top: 2px;
+    }
+
+    .content .nav2 a {
+        padding: 13px;
     }
     
     .h1header{
@@ -717,11 +749,27 @@ html{
         display: block;
     }
 
-    .content.on .list-menu .li{
-        
+    .content.on .list-menu li{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .content.on .list-menu li a{
+        font-size: 2rem;
     }
 
+    .content.on .menu-toggle .two{
+        opacity: 0;
+    }
 
+    .content.on .menu-toggle .one{
+        transform: rotate(45deg) translate(5px, -8px);
+    }
+
+    .content.on .menu-toggle .three{
+        transform: rotate(-45deg) translate(20px,-6px);
+    }
+  
 @media(max-width:790px){
     .contato{
         padding-left: 21px;
@@ -803,9 +851,29 @@ html{
     }
 }
 
-@media(max-width:660px){
+@media(max-width:653px){
+    .container-head h1{
+        font-size: 35px;
+    }
 
+    .caix-but{
+        width: 415px;
+    }
+
+    .caix-but button{
+        width: 200px;
+    }
+
+    .contentsobre p{
+        width: 530px;
+        font-size: 2.0rem;
+    }
+
+    .sobre-nos .main .img-cozinha img{
+        margin-left: -2px;
+    }
 }
+
 
 @media(max-width:625px){
     .content .menu-toggle{
