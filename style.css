@@ -347,7 +347,7 @@ header img.pizzaimgh{
 
 .contato{
     background-color:#161414;
-    width: 100%;
+    max-width: 1920px;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -704,7 +704,6 @@ html{
         display: none;
     }
 }
-
     .one,
     .two,
     .three{
@@ -728,11 +727,15 @@ html{
         bottom: 0px;
         width: 100vw;
         height: 105vh;
-        background-color: #11111179;
+        background-color: #111111e5;
         z-index: 10;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .content.on .nav2{
+        margin-left: -201px;
     }
 
     .content.on .logo{
@@ -879,6 +882,36 @@ html{
     .content .menu-toggle{
         margin-left: -300px;
     }
+
+    .contato{
+        margin-left: -38px;
+    }
+ }
+
+ @media(max-width:582px){
+    .container-head h1{
+        font-size: 30px;
+    }
+    .first-section h2{
+        font-size: 2rem;
+    }
+
+    .caix-but{
+        width: 405px;
+    }
+
+    .contentsobre p{
+        width: 400px;
+    }
+
+    .sobre-nos .main .img-cozinha img{
+        width: 400px;
+    }
+
+    .contato{
+        margin-left: -56px;
+    }
+    
  }
 
 @media(max-width:580px){
@@ -894,6 +927,12 @@ html{
     }
 }
 
+@media(max-width:550px){
+    .contato{
+        margin-left: -74px;
+    }
+}
+
 @media(max-width:530px){
     .content .menu-toggle{
         margin-left: -400px;
@@ -901,17 +940,81 @@ html{
 
 }
 
+@media(max-width:499px){
+    .contato{
+        margin-left: -94px;
+    }
+}
+
+@media(max-width:490px){
+    .container-head h1{
+        font-size: 25px;
+    }
+    .caix-but button{
+        width: 160px;
+    }
+    .caix-but{
+        width: 325px;
+    }
+
+    .contentsobre h2{
+        font-size: 4rem;
+    }
+    .contentsobre p{
+        width: 330px;
+    }
+    .sobre-nos .main .img-cozinha img{
+        width: 330px;
+        height: 330px;
+    }
+
+    .itens-cardapio{
+        grid-template-columns: repeat(auto-fit, minmax(330px,300px));
+    }
+}
+
+
 @media(max-width:480px){
     .content .menu-toggle{
         margin-left: -450px;
     }
 }
 
+@media(max-width:474px){
+    
+    .contato{
+        height: 303px;
+    }
+
+    .contato div{
+        display: block;
+        text-align: center;
+        margin-left: 245px;
+    }
+    .contato h1{
+        margin-top: 46px;
+    }
+
+    .contato .pag img{
+        margin-left: -794px;
+    }
+}
+
+
 @media(max-width:430px){
     .content .menu-toggle{
         margin-left: -500px;
     }
 
+}
+
+@media(max-width:400px){
+    .contato{
+        margin-left: -151px;
+    }
+    footer .desen{
+        font-size: 1.6rem;
+    }
 }
 
 @media(max-width:376px){
