@@ -5,6 +5,19 @@
 
 /*TIRAR TODOS MARGIN PADDIN ETC QUE O SITE CRIA AUTOMATICO */
 
+::-webkit-scrollbar{
+    width: 13px;
+    background-color: #161414;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    height: 20px;
+    background-color: #ffc506;
+    border-radius: 10px;
+}
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -13,6 +26,9 @@
     border: none;
     text-decoration: none;
 }
+
+
+
 
 @media(max-width:1920px){
 
@@ -469,6 +485,7 @@ footer .desen{
     .itens-cardapio{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(100px,350px));
+        margin-left: -50px;
     }
 
     }
@@ -955,6 +972,8 @@ html{
     }
     .caix-but{
         width: 325px;
+        flex-direction: column;
+        align-items: center;
     }
 
     .contentsobre h2{
@@ -1000,12 +1019,27 @@ html{
     }
 }
 
+@media(max-width:470px){
+    .contato{
+        margin-left: -114px;
+    }
+}
+
 
 @media(max-width:430px){
     .content .menu-toggle{
         margin-left: -500px;
     }
+    .contato{
+        margin-left: -136px;
+    }
 
+}
+
+@media(max-width:415px){
+    .container-head h1{
+        font-size: 22px;
+    }
 }
 
 @media(max-width:400px){
@@ -1015,12 +1049,31 @@ html{
     footer .desen{
         font-size: 1.6rem;
     }
+
+    .contentsobre p{
+        width: 300px;
+    }
+    
+    .sobre-nos .main .img-cozinha img{
+        width: 293px;
+        height: 311px;
+    }
+
+    .itens-cardapio{
+        grid-template-columns: repeat(auto-fit, minmax(299px,300px));
+    }
+
+
 }
 
 @media(max-width:376px){
     .content .menu-toggle{
         margin-left: -530px;
 
+    }
+
+    .contato{
+        margin-left: -162px;
     }
 }
 
